@@ -12,7 +12,7 @@ github_repo: "https://github.com/zhulinghana/zhulinghana.github.io.git" # you co
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "追逐属于你的一切!"
-sidebar-avatar: /img/img/my-photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/my-photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

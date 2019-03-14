@@ -71,11 +71,13 @@ spider.start_requests()
 这时的数据并未一一对应,所以我们使用zip方法使他们一一对应起来,然后进行输出,可是Python3中zip的使用方法稍有改变,想要输出zip中的数据
 需要将其转换为列表，否则输出的是一个对象,详情参见[Python3 zip()函数]("http://www.runoob.com/python3/python3-func-zip.html").
 
-![](https://raw.githubusercontent.com/zhulinghana/zhulinghana.github.io/master/Bimg/2019-3-13-Python3/zipshuzu.png)
-
 ```python
 print(list(zip(ranking_list, title_list, star_list, releasetime_list)))
 ```
+
+![](https://raw.githubusercontent.com/zhulinghana/zhulinghana.github.io/master/Bimg/2019-3-13-Python3/zipshuzu.png)
+
+
 可是这时候就又有一个新的问题出现了,主演前面有"\n"和空格字符,不要急,一会就使用一个方法把字符切掉。
 
 下面我们将数据已json的格式进行储存,不要忘记导入json库
